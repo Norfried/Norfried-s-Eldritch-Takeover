@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+      "B",
+      "B"
+  ],
+
+  "key":
+  {
+      "B":
+      {
+          "item": "eldritch_takeover:straulkite_brick"
+      }
+  },
+
+  "result":
+  {
+    "item": "eldritch_takeover:straulkite_brick_chiseled",
+    "count": 2
+  }
+}

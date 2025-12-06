@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+      "III",
+      "IOI",
+      "III"
+  ],
+
+  "key":
+  {
+      "I":
+      {
+          "item": "eldritch_takeover:straulok_protoplasm"
+      },
+
+      "O":
+      {
+        "item": "eldritch_takeover:straulok_artifact_dormant"
+      }
+  },
+
+  "result":
+  {
+    "item": "eldritch_takeover:straulok_artifact_awakened"
+  }
+}

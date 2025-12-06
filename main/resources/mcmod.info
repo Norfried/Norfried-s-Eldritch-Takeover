@@ -1,20 +1,18 @@
 [
   {
-    "modid": "modid",
-    "name": "Mod Name",
-    "description": "Mod Description",
+    "modid": "eldritch_takeover",
+    "name": "Norfried's Eldritch Takeover",
+    "description": "Impending doom approaches...",
     "version": "${version}",
-    "mcversion": "${mcversion}",
+    "mcversion": "1.12.2",
     "url": "modpage",
     "authorList": [
-      "author1",
-      "author2"
+      "Norfried",
+      ""
     ],
-    "credits": "FG6 Build template for 1.12.2 made by The_Computerizer",
+    "credits": "SirSquidly for showing me how to run IntelliJ, JBoyMercs for letting me borrow his block code, and Bee for adding animations to a couple of items.",
     "logoFile": "modlogo.png",
     "screenshots": [],
-    "dependencies": [
-      "mixinbooter"
-    ]
+    "dependencies": []
   }
 ]

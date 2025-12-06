@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+      "BB",
+      "BB"
+  ],
+
+  "key":
+  {
+      "B":
+      {
+          "item": "eldritch_takeover:straulkite_smooth"
+      }
+  },
+
+  "result":
+  {
+    "item": "eldritch_takeover:straulkite_brick",
+    "count": 4
+  }
+}

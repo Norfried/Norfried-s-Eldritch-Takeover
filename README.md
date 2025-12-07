@@ -1,2 +1,4 @@
 # Norfried-s-Eldritch-Takeover
-A mod which adds invasion events from interdimensional horrors! This mod was made for the 2025 1.12 Coalition Mod Jam.
+A mod which adds interdimensional invasions by eldritch monstrosities! The horrors won't appear on their own, they must be awakened through a special interaction within a structure called the Forbidden Sanctum. 
+This mod is still a work in progress with little to offer at the moment, but the current vision is to create monsters whose difficulty scales with how powerful the player is. Depending on the player's achievements, items obtained, stats improved, and certain mods installed, the monsters health, attack damage, abilities, and other features will be adjusted accordingly to always provide a fair challenge to the player regardless of their arsenal.
+Note: NET (Norfried's Eldritch Takeover) was made for the 2025 1.12.2 Coalition Mod Jam, incomplete, but functional as far as I know.

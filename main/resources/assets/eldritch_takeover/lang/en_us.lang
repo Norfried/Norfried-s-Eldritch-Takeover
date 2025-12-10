@@ -1,0 +1,14 @@
+itemGroup.eldritch_takeover=Norfrieds Eldritch Takeover
+
+item.straulok_artifact_dormant.name=Foreboding Relic
+item.straulok_artifact_awakened.name=Straulok Invocator
+item.straulok_protoplasm.name=Straulok Protoplasm
+item.straulok_crawler_eye.name=Straulok Crawler Eye
+tile.straulkite_stone.name=Straulkite
+tile.straulkite_smooth.name=Smooth Straulkite
+tile.straulkite_brick.name=Straulkite Brick
+tile.straulkite_brick_chiseled.name=Chiseled Straulkite Brick
+tile.straulkite_tile.name=Straulkite Tile
+tile.straulok_biomass.name=Straulok Biomass
+itemGroup.etcreativetab=Eldritch Takeover
+entity.straulok_crawler.name=Straulok Crawler

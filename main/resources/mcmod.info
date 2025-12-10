@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "eldritch_takeover",
+    "name": "Norfried's Eldritch Takeover",
+    "description": "Impending doom approaches...",
+    "version": "${version}",
+    "mcversion": "1.12.2",
+    "url": "modpage",
+    "authorList": [
+      "Norfried",
+      ""
+    ],
+    "credits": "SirSquidly for showing me how to run IntelliJ, JBoyMercs for letting me borrow his block code, Unoriginal for helping me code the crawler's unique AI, and Bee for adding animations to a couple of items.",
+    "logoFile": "ETLogo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

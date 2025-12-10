@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "StraulokCrawlerMain",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 67,
+          "name": "eldritch_takeover:straulok_protoplasm",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StraulokCrawlerEye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 33,
+          "name": "eldritch_takeover:straulok_crawler_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+      "POP",
+      "OEO",
+      "POP"
+  ],
+
+  "key":
+  {
+      "P":
+      {
+          "item": "minecraft:purpur_block"
+      },
+      "O":
+      {
+          "item": "minecraft:obsidian"
+      },
+      "E":
+      {
+          "item": "minecraft:ender_pearl"
+      }
+  },
+
+  "result":
+  {
+      "item": "eldritch_takeover:straulkite_stone",
+      "count": 4
+  }
+}

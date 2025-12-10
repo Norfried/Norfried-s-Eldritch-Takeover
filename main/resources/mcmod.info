@@ -5,12 +5,11 @@
     "description": "Impending doom approaches...",
     "version": "${version}",
     "mcversion": "1.12.2",
-    "url": "modpage",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/norfrieds-eldritch-takeover",
     "authorList": [
-      "Norfried",
-      ""
+      "Norfried"
     ],
-    "credits": "SirSquidly for showing me how to run IntelliJ, JBoyMercs for letting me borrow his block code, Unoriginal for helping me code the crawler's unique AI, and Bee for adding animations to a couple of items.",
+    "credits": "SirSquidly for showing me how to run IntelliJ, JBoyMercs for letting me borrow some of his code, Unoriginal for helping me code the crawler's unique AI, and Kombee for adding animations to a couple of items.",
     "logoFile": "ETLogo.png",
     "screenshots": [],
     "dependencies": []

@@ -32,6 +32,6 @@ Mobs
 
 
    Note: NET (Norfried's Eldritch Takeover) was made for the 2025 1.12.2 Coalition Mod Jam, incomplete, but functional as far as I know (do report any & every issue that is found with the mod). Some features are exclusively obtainable in creative mode as of now, but eventually the player will be able to find/craft them in survival mode as well.
-   Shoutout to SirSquidly for showing me how to run IntelliJ, JBoyMercs for letting me borrow portions of his code, Unoriginal for helping me code the crawler's unique AI, and Kombee for adding animations to a couple of items.
+Shoutout to SirSquidly for showing me how to run IntelliJ, JBoyMercs for letting me borrow portions of his code, Unoriginal for helping me code the crawler's unique AI, and Kombee for adding animations to a couple of items.
 
    Beware the ever hungry forces from beyond...

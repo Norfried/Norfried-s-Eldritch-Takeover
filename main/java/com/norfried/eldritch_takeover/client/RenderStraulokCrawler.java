@@ -1,6 +1,6 @@
 package com.norfried.eldritch_takeover.client;
 
-import com.norfried.eldritch_takeover.entity.monster.EntityStraulokCrawler;
+import com.norfried.eldritch_takeover.entity.living.EntityStraulokCrawler;
 import com.norfried.eldritch_takeover.util.Reference;
 import net.minecraft.client.model.ModelSpider;
 import net.minecraft.client.renderer.GlStateManager;

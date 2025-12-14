@@ -5,6 +5,7 @@ tile.straulkite_smooth.name=Smooth Straulkite
 tile.straulkite_brick.name=Straulkite Brick
 tile.straulkite_brick_chiseled.name=Chiseled Straulkite Brick
 tile.straulkite_tile.name=Straulkite Tile
+tile.straulkite_tile_chiseled.name=Chiseled Straulkite Tile
 tile.straulok_biomass.name=Straulok Biomass
 item.straulok_artifact_dormant.name=Foreboding Relic
 item.straulok_artifact_awakened.name=Straulok Invocator

@@ -1,6 +1,6 @@
 package com.norfried.eldritch_takeover.entity.ai;
 
-import com.norfried.eldritch_takeover.entity.monster.EntityStraulokCrawler;
+import com.norfried.eldritch_takeover.entity.living.EntityStraulokCrawler;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
@@ -58,18 +58,7 @@ public class EntityAIStraulokCrawlerLeap extends EntityAILeapAtTarget
         double distance = this.crawler.getPositionVector().distanceTo(create);
         leapTowards(this.crawler,create,(float)distance * 0.13f, (float)distance * 0.1f);
     }
-/**
-    public static void leapTowards(EntityLivingBase entity, Vec3d target, float horzVel, float yVel) {
-        Vec3d dir = target.subtract(entity.getPositionVector()).normalize();
-        Vec3d leap = new Vec3d(dir.x, 0, dir.z).normalize().scale(horzVel).add(ModUtils.yVec(yVel));
-        entity.motionX += leap.x;
-        if (entity.motionY < 0.1) {
-            entity.motionY += leap.y;
-        }
-        entity.motionZ += leap.z;
-**/
 
-//if(currentvalue > maxvalue){ currentvalue = maxvalue;}
 
     public static void leapTowards(EntityStraulokCrawler EntityStraulokCrawler, Vec3d target, float horzVel, float yVel)
     {

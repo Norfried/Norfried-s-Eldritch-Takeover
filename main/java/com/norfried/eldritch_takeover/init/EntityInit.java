@@ -2,7 +2,7 @@ package com.norfried.eldritch_takeover.init;
 
 import com.norfried.eldritch_takeover.Main;
 import com.norfried.eldritch_takeover.client.*;
-import com.norfried.eldritch_takeover.entity.monster.*;
+import com.norfried.eldritch_takeover.entity.living.*;
 import com.norfried.eldritch_takeover.util.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
@@ -10,8 +10,6 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import static net.minecraftforge.registries.GameData.registerEntity;
 
 public class EntityInit
 {

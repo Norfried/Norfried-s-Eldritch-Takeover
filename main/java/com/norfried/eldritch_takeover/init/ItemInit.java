@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 import com.norfried.eldritch_takeover.item.ItemBase;
 import com.norfried.eldritch_takeover.item.food.ItemFoodBase;
+import com.norfried.eldritch_takeover.item.food.ItemFoodCrawlerEye;
+import com.norfried.eldritch_takeover.item.food.ItemFoodProtoplasm;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.potion.PotionEffect;
@@ -20,5 +22,7 @@ public class ItemInit {
     public static final Item STRAULOK_PROTOPLASM = new ItemBase("straulok_protoplasm");
 
     //Food
-    public static final Item STRAULOK_CRAWLER_EYE = new ItemFoodBase("straulok_crawler_eye", 3, 0.8F, false).setPotionEffect(new PotionEffect(MobEffects.WITHER, 200, 1), 1.0F);
+    public static final Item BURNT_STRAULOK_PROTOPLASM = new ItemFoodProtoplasm("straulok_protoplasm_burnt", 1, 0.1F, false);
+    public static final Item CURED_STRAULOK_PROTOPLASM = new ItemFoodBase("straulok_protoplasm_cured", 2, 0.4F, false).setPotionEffect(new PotionEffect(MobEffects.LEVITATION, 20, 0), 0.8F);
+    public static final Item STRAULOK_CRAWLER_EYE = new ItemFoodCrawlerEye("straulok_crawler_eye", 3, 0.8F, false);
 }

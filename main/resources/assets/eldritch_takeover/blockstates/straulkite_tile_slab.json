@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "half=bottom": { "model": "eldritch_takeover:straulkite_tile_slab_half" },
+        "half=top": { "model": "eldritch_takeover:straulkite_tile_slab_upper" }
+    }
+}

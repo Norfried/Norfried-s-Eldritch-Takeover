@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_side",
+  "textures": {
+    "wall": "eldritch_takeover:blocks/straulkite_smooth"
+  }
+}

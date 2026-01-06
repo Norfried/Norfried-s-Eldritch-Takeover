@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "eldritch_takeover:blocks/straulkite_brick",
+        "top": "eldritch_takeover:blocks/straulkite_brick",
+        "side": "eldritch_takeover:blocks/straulkite_brick"
+    }
+}

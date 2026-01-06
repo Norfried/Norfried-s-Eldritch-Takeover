@@ -1,0 +1,7 @@
+{
+  "forge_marker": 1,
+  "parent":"eldritch_takeover:block/straulkite_stairs_base",
+  "textures": {
+    "all": "eldritch_takeover:blocks/straulkite_tile"
+  }
+}

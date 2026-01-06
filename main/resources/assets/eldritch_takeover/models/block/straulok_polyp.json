@@ -1,0 +1,12 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+        "particle": "eldritch_takeover:blocks/straulok_polyp_vertical",
+        "up": "eldritch_takeover:blocks/straulok_polyp_vertical",
+        "down": "eldritch_takeover:blocks/straulok_polyp_vertical",
+		"north": "eldritch_takeover:blocks/straulok_polyp_horizontal",
+        "east": "eldritch_takeover:blocks/straulok_polyp_horizontal",
+        "south": "eldritch_takeover:blocks/straulok_polyp_horizontal",
+        "west": "eldritch_takeover:blocks/straulok_polyp_horizontal"
+    }
+}

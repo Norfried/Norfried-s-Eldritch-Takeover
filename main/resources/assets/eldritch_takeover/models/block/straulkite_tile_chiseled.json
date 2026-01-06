@@ -1,12 +1,6 @@
 {
-    "parent": "block/orientable",
+    "parent": "block/cube_all",
     "textures": {
-        "particle": "eldritch_takeover:blocks/straulkite_tile_chiseled",
-        "up": "eldritch_takeover:blocks/straulkite_tile",
-        "down": "eldritch_takeover:blocks/straulkite_tile",
-        "north": "eldritch_takeover:blocks/straulkite_tile_chiseled",
-        "east": "eldritch_takeover:blocks/straulkite_tile_chiseled",
-        "south": "eldritch_takeover:blocks/straulkite_tile_chiseled",
-        "west": "eldritch_takeover:blocks/straulkite_tile_chiseled"
+        "all": "eldritch_takeover:blocks/straulkite_tile_chiseled"
     }
 }

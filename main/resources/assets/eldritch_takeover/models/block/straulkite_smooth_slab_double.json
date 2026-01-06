@@ -1,0 +1,12 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+        "particle": "eldritch_takeover:blocks/straulkite_smooth_slabs",
+        "up": "eldritch_takeover:blocks/straulkite_smooth",
+        "down": "eldritch_takeover:blocks/straulkite_smooth",
+		"north": "eldritch_takeover:blocks/straulkite_smooth_slabs",
+        "east": "eldritch_takeover:blocks/straulkite_smooth_slabs",
+        "south": "eldritch_takeover:blocks/straulkite_smooth_slabs",
+        "west": "eldritch_takeover:blocks/straulkite_smooth_slabs"
+    }
+}

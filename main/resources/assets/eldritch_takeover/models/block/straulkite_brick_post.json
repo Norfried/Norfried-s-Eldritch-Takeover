@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_post",
+  "textures": {
+    "wall": "eldritch_takeover:blocks/straulkite_brick"
+  }
+}

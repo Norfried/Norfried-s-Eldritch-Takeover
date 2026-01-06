@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "axis=y":  { "model": "eldritch_takeover:straulkite_pillar" },
+    "axis=z":   { "model": "eldritch_takeover:straulkite_pillar", "x": 90 },
+    "axis=x":   { "model": "eldritch_takeover:straulkite_pillar", "x": 90, "y": 90 },
+    "axis=none": { "model": "eldritch_takeover:straulkite_smooth" }
+  }
+}

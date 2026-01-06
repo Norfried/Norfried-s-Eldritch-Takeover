@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "eldritch_takeover:straulkite_brick"
+    }
+  },
+  "result": {
+    "item": "eldritch_takeover:straulkite_brick_slab",
+    "data": 0,
+    "count": 6
+  }
+}

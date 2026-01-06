@@ -6,12 +6,12 @@
   ],
   "key": {
     "B": {
-      "item": "eldritch_takeover:straulkite_tile_slab",
+      "item": "eldritch_takeover:straulkite_smooth_slab",
       "data": 0
     }
   },
   "result": {
-    "item": "eldritch_takeover:straulkite_tile_chiseled",
+    "item": "eldritch_takeover:straulkite_pillar",
     "data": 0,
     "count": 1
   }

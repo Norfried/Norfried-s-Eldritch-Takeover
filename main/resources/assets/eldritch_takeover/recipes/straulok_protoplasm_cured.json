@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+      " B ",
+      "SPM",
+      " W "
+  ],
+
+  "key":
+  {
+      "P":
+      {
+          "item": "eldritch_takeover:straulok_protoplasm_burnt"
+      },
+
+      "M":
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+
+      "S":
+      {
+        "item": "minecraft:sugar"
+      },
+
+      "W":
+      {
+        "item": "minecraft:wheat"
+      },
+
+      "B":
+      {
+        "item": "minecraft:milk_bucket"
+      }
+  },
+
+  "result":
+  {
+    "item": "eldritch_takeover:straulok_protoplasm_cured"
+  }
+}

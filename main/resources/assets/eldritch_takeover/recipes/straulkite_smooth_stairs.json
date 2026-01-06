@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+
+  "key":
+  {
+    "B":
+    {
+      "item": "eldritch_takeover:straulkite_smooth"
+    }
+  },
+
+  "result":
+  {
+    "item": "eldritch_takeover:straulkite_smooth_stairs",
+    "count": 4
+  }
+}

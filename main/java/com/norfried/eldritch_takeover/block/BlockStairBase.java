@@ -10,8 +10,9 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
+
 public class BlockStairBase extends BlockStairs implements IHasModel {
-    public BlockStairBase(IBlockState modelState) {
+    protected BlockStairBase(IBlockState modelState) {
         super(modelState);
     }
 
@@ -22,6 +23,7 @@ public class BlockStairBase extends BlockStairs implements IHasModel {
         this.setLightOpacity(255);
         this.useNeighborBrightness = true;
         // Add both an item as a block and the block itself
+        setCreativeTab(Main.etcreativetab);
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
@@ -34,9 +36,6 @@ public class BlockStairBase extends BlockStairs implements IHasModel {
         this.setLightOpacity(255);
         this.useNeighborBrightness = true;
     }
-
-
-
 
     @Override
     public void registerModels() {

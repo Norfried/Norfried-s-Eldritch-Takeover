@@ -6,8 +6,8 @@ import com.norfried.eldritch_takeover.init.ItemInit;
 import com.norfried.eldritch_takeover.util.IHasModel;
 import com.norfried.eldritch_takeover.creativetab.ETCreativeTab;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
@@ -22,7 +22,13 @@ public class BlockBase extends Block implements IHasModel
 
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+    }
 
+    public BlockBase(String name, Material material, float hardness, float resistance, SoundType soundType) {
+        this(name, material);
+        setHardness(hardness);
+        setResistance(resistance);
+        setSoundType(soundType);
     }
 
     @Override

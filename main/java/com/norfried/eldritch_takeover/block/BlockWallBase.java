@@ -15,13 +15,16 @@ import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.NonNullList;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -29,6 +32,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 import java.util.List;
+
 
 public class BlockWallBase extends Block implements IHasModel {
     public static final PropertyBool UP = PropertyBool.create("up");
@@ -47,15 +51,16 @@ public class BlockWallBase extends Block implements IHasModel {
         setRegistryName(name);
 
         // Add both an item as a block and the block itself
+        setCreativeTab(Main.etcreativetab);
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
-    public BlockWallBase(String name, Material material, float hardness, float resistanc, SoundType soundType) {
+    public BlockWallBase(String name, Material material, float hardness, float resistance, SoundType soundType) {
         this(name, material);
         this.setDefaultState(this.blockState.getBaseState().withProperty(UP, Boolean.valueOf(false)).withProperty(NORTH, Boolean.valueOf(false)).withProperty(EAST, Boolean.valueOf(false)).withProperty(SOUTH, Boolean.valueOf(false)).withProperty(WEST, Boolean.valueOf(false)).withProperty(VARIANT, BlockWall.EnumType.NORMAL));
         this.setHardness(hardness);
-        this.setResistance(resistanc / 3.0F);
+        this.setResistance(resistance / 3.0F);
         this.setSoundType(soundType);
     }
 
@@ -204,3 +209,20 @@ public class BlockWallBase extends Block implements IHasModel {
 
     /* ======================================== FORGE END ======================================== */
 }
+
+/**
+ public class BlockWallBase extends BlockWall
+ {
+ public BlockWallBase(Block modelBlock)
+ {
+ super(modelBlock);
+ }
+
+ public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items)
+ { items.add(new ItemStack(this, 1)); }
+
+ @Override
+ public boolean canPlaceTorchOnTop(IBlockState state, IBlockAccess world, BlockPos pos)
+ { return true; }
+ }
+**/

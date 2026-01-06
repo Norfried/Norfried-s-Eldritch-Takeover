@@ -22,6 +22,7 @@ public class BlockPillarBase extends BlockRotatedPillar implements IHasModel {
         this.setResistance(Resistance);
         this.setSoundType(soundType);
         // Add both an item as a block and the block itself
+        setCreativeTab(Main.etcreativetab);
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 

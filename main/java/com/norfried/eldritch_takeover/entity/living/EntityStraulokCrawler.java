@@ -38,10 +38,10 @@ public class EntityStraulokCrawler extends EntitySpider
         super.initEntityAI();
         this.targetTasks.addTask(2, new EntityAINearestAttackableTarget<>(this, EntityPlayer.class, false));
         this.targetTasks.addTask(3, new EntityAINearestAttackableTarget<>(this, EntityVillager.class, false));
-        this.targetTasks.addTask(3, new EntityAINearestAttackableTarget<>(this, EntityGolem.class, true));
+        this.targetTasks.addTask(3, new EntityAINearestAttackableTarget<>(this, EntityIronGolem.class, true));
         this.targetTasks.addTask(7, new EntityStraulokCrawler.AIStraulokCrawlerHunt<>(this, EntityAnimal.class));
         this.tasks.addTask(3, new EntityAIAvoidEntity<>(this, EntityEnderCrystal.class, 6.0F, 1.0D, 1.1D));
-        this.tasks.addTask(2, new EntityAIStraulokCrawlerLeap(this, 4f));
+        this.tasks.addTask(2, new EntityAIStraulokCrawlerLeap(this, 2.0F));
     }
 
 
@@ -55,7 +55,7 @@ public class EntityStraulokCrawler extends EntitySpider
     }
 
     //Code for slow falling over the void
-    public boolean isEmptyColumn(World world, BlockPos blockpos) {
+    public boolean isOverVoid(World world, BlockPos blockpos) {
         if (world.getHeight(blockpos.getX(), blockpos.getZ()) == 0) return true;
         BlockPos.MutableBlockPos pos = new BlockPos.MutableBlockPos(blockpos);
         while (world.isValid(pos)) {
@@ -68,7 +68,7 @@ public class EntityStraulokCrawler extends EntitySpider
     public void onLivingUpdate()
     {
         super.onLivingUpdate();
-        if (isEmptyColumn(this.world, new BlockPos(this.posX, this.posY, this.posZ)) && !this.onGround && this.motionY < 0.0D)
+        if (isOverVoid(this.world, new BlockPos(this.posX, this.posY, this.posZ)) && !this.onGround && this.motionY < 0.0D)
         {
             this.motionY *= 0.6D;
         }
@@ -84,10 +84,16 @@ public class EntityStraulokCrawler extends EntitySpider
     //Code for sound edits
     protected float getSoundPitch()
     {
-        return (this.rand.nextFloat() - this.rand.nextFloat()) * 0.125F + 0.5F;
+        return (this.rand.nextFloat() - this.rand.nextFloat()) * 0.13F + 0.5F;
     }
 
+    //Code for gaining absorption whilst inside of cobwebs.
+    public void setInWeb()
+    {
+        this.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, 20, 0, false, false));
+    }
 
+    //Immunity to the wither effect.
     public boolean isPotionApplicable(PotionEffect potioneffectIn)
     {
         if(potioneffectIn.getPotion() == MobEffects.WITHER)

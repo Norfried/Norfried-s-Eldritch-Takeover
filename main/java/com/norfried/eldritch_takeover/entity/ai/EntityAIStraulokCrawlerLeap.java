@@ -33,7 +33,7 @@ public class EntityAIStraulokCrawlerLeap extends EntityAILeapAtTarget
         {
             double d0 = this.crawler.getDistanceSq(this.leapTarget);
 
-            if (d0 >= 32.0D && d0 <= 256.0D)
+            if (d0 >= 32.0D && d0 <= 320.0D)
             {
                 if (!this.crawler.onGround)
                 {

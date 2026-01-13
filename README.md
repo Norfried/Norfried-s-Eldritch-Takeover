@@ -9,6 +9,7 @@
 Blocks
 * Straulkite: A new stone-like material as hard as obsidian, which can be crafted into polished, brick, and tile variants.
    - Each variant comes with a complete set of stairs, slabs, walls, and a block or two unique to that set.
+   - Currently craftable from End dimension materials until the Forbidden Sanctum is implemented
 * Straulok Biomass: A dimly glowing mass of bio-material, crafted from Straulok Protoplasm.
 
 Items
